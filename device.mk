@@ -52,3 +52,7 @@ PRODUCT_PACKAGES += \
     NQNfcNci \
     SecureElement \
     Tag
+
+# Hide
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
