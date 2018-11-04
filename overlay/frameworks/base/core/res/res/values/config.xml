@@ -291,6 +291,30 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M -295,0 L -295,88 L 295,88 L 295,0 Z</string>
 
+    <!-- Array of lux values to define the minimum brightness curve, which guarantees that any
+         brightness curve that dips below it is rejected by the system.
+         This prevents auto-brightness from setting the screen so dark as to prevent the user from
+         resetting or disabling it.
+         The values must be non-negative and strictly increasing, and correspond to the values in
+         the config_minimumBrightnessCurveNits array. -->
+    <array name="config_minimumBrightnessCurveLux">
+        <item>0.0</item>
+        <item>2000.0</item>
+        <item>4000.0</item>
+    </array>
+
+    <!-- Array of nits values to define the minimum brightness curve, which guarantees that any
+         brightness curve that dips below it is rejected by the system.
+         This should map lux to the absolute minimum nits that are still readable in that ambient
+         brightness.
+         The values must be non-negative and non-decreasing, and correspond to the values in the
+         config_minimumBrightnessCurveLux array. -->
+    <array name="config_minimumBrightnessCurveNits">
+        <item>0.0</item>
+        <item>50.0</item>
+        <item>90.0</item>
+    </array>
+
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">89.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
