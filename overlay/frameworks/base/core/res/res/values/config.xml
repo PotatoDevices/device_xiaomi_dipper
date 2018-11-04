@@ -222,6 +222,16 @@
          brightness value and will repeat for the following ramp if autobrightness is enabled. -->
     <bool name="config_skipScreenOnBrightnessRamp">false</bool>
 
+    <!-- Default screen brightness for VR setting. -->
+    <integer name="config_screenBrightnessForVrSettingDefault">1376</integer>
+
+    <!-- Maximum screen brightness setting allowed for VR. -->
+    <integer name="config_screenBrightnessForVrSettingMaximum">4095</integer>
+
+    <!-- Minimum screen brightness setting allowed for VR. Device panels start increasing pulse
+         width as brightness decreases below this theshold. -->
+    <integer name="config_screenBrightnessForVrSettingMinimum">1264</integer>
+
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
 
