@@ -7,6 +7,10 @@
 # Inherit from sdm845-common
 -include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
+# Kernel clang
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := 8.0.4
+
 DEVICE_PATH := device/xiaomi/dipper
 
 # Assert
