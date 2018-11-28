@@ -22,6 +22,9 @@ TARGET_KERNEL_CONFIG := dipper_defconfig
 # NFC
 TARGET_USES_NQ_NFC := true
 
+# Face Unlock
+TARGET_FACE_UNLOCK_CAMERA_ID := 5
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/dipper/BoardConfigVendor.mk
 
