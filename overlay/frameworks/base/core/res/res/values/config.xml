@@ -296,6 +296,8 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M -295,0 L -295,88 L 295,88 L 295,0 Z</string>
 
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+
     <!-- Array of lux values to define the minimum brightness curve, which guarantees that any
          brightness curve that dips below it is rejected by the system.
          This prevents auto-brightness from setting the screen so dark as to prevent the user from
