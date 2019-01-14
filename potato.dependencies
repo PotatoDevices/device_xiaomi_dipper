@@ -4,10 +4,8 @@
     "target_path": "device/xiaomi/sdm845-common"
   },
   {
-    "remote"     : "github",
-    "repository" : "LineageOS/android_kernel_xiaomi_sdm845",
-    "target_path": "kernel/xiaomi/sdm845",
-    "revision"   : "lineage-16.0"
+    "repository" : "kernel_xiaomi_dipper",
+    "target_path": "kernel/xiaomi/dipper"
   },
   {
     "repository" : "vendor_xiaomi_sdm845-common",

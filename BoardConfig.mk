@@ -18,6 +18,7 @@ TARGET_OTA_ASSERT_DEVICE := dipper
 
 # Kernel
 TARGET_KERNEL_CONFIG := dipper_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
 
 # NFC
 TARGET_USES_NQ_NFC := true
