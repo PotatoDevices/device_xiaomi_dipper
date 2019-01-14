@@ -9,10 +9,8 @@
     "target_path": "kernel/xiaomi/sdm845",
     "revision"   : "lineage-16.0"
   },
-  { 
-    "remote"     : "github",
-    "repository" : "TheMuppets/proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi",
-    "revision"   : "lineage-16.0"
+  {
+    "repository" : "vendor_xiaomi_sdm845-common",
+    "target_path": "vendor/xiaomi"
   }
 ]
