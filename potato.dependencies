@@ -9,6 +9,6 @@
   },
   {
     "repository" : "vendor_xiaomi_sdm845-common",
-    "target_path": "vendor/xiaomi"
+    "target_path": "vendor/xiaomi/sdm845-common"
   }
 ]
