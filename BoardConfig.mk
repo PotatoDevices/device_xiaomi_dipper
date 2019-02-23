@@ -20,9 +20,6 @@ TARGET_OTA_ASSERT_DEVICE := dipper
 TARGET_KERNEL_CONFIG := dipper_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
 
-# NFC
-TARGET_USES_NQ_NFC := true
-
 # Face Unlock
 TARGET_FACE_UNLOCK_CAMERA_ID := 5
 
