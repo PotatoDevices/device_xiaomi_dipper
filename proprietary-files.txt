@@ -189,74 +189,66 @@ vendor/firmware/dipper_ois.prog|4d67bb77726317a13f2ef99cfd9188495597e7c9
 vendor/etc/sdr_config.cfg
 vendor/etc/hdr_config.cfg
 
-# Fingerprint
-vendor/lib64/hw/fingerprint.fpc.so
-vendor/lib64/hw/fingerprint.goodix.so
-vendor/lib64/libgf_ca.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+# Fingerprint - from dipper - QKQ1.190828.002
+vendor/lib64/hw/fingerprint.fpc.so|efbf42a393534e1099993fd721740de5463614fb
+vendor/lib64/hw/fingerprint.goodix.so|860694e0824bdde827a96fb6c0b7b056fb17f64c
+vendor/lib64/libgf_ca.so|186b715e16fd5536f139b0b280c386353019f3cf
+vendor/lib64/libgf_hal.so|08bafbcc6f80eed7524689f1904a7ceb551b04d0
+vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so|f0f340880322deb9f81e1382dda1892118a2d614
+vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so|8f95d946dae070676ae05db6d6aac9524cca790b
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|241479a335ea91ab6c903c74f64aad3bae0a3b61
 
-# GNSS
-vendor/bin/ignss_1_1
-vendor/bin/gps.cer
-vendor/bin/glgps
-vendor/bin/lhd
-vendor/etc/gpsconfig.xml
-vendor/etc/gps.conf
-vendor/etc/lhd.conf
-vendor/etc/SensorHub.patch
-vendor/lib64/hw/gps.brcm.so
-vendor/lib64/hw/flp.brcm.so
-vendor/lib64/android.hardware.gnss@1.1-impl-xiaomi.so
-vendor/lib64/liblocation_api.so
-vendor/lib64/libloc_core.so
-vendor/lib64/libdiag_jni.so
-vendor/lib64/libdiagjni.so
-vendor/lib64/libevent_observer.so
-vendor/lib64/libgarden.so
-vendor/lib64/libgps.utils.so
-vendor/lib/liblocation_api.so
-vendor/lib/libloc_core.so
-vendor/lib/libdiag_jni.so
-vendor/lib/libdiagjni.so
-vendor/lib/libevent_observer.so
-vendor/lib/libgarden.so
-vendor/lib/libgps.utils.so
+# GNSS  - from dipper - QKQ1.190828.002
+vendor/bin/ignss_2_0|ccb5281fd5d1e92b5304c4248ffeae2701a7a6ad
+vendor/bin/gps.cer|c215000c51039517547e4d95952a426b56966f9e
+vendor/bin/glgps|33df76517777ea8b46415d256bf3a92b2350661f
+vendor/bin/lhd|33071163e3ef3587df4e8611ff2eed4d8e48e278
+vendor/etc/gpsconfig.xml|2ba071719d079dea4286a0899511ffc788c4c5ea
+vendor/etc/gps.conf|33dd5a221aadd39fcaef42447129fd2985b051d6
+vendor/etc/lhd.conf|2a070d91409f09ca2e4824c51c124fa5d14cbe5e
+vendor/etc/SensorHub.patch|e8c540fc23666df93911ff8fbdf9d5cf9b8f5ee4
+vendor/lib64/hw/gps.brcm.so|418acf01e0ac06d522e5c4dd6dd00b3507976782
+vendor/lib64/hw/flp.brcm.so|782cd79267f32aa4b2750c15372970b291ce584f
+vendor/lib64/android.hardware.gnss@2.0-impl-xiaomi.so|d98405c452807ba9197b52d2a872034fb02eaaff
+vendor/lib64/libdiagjni.so|d87568506a42f59caa109f90d9d19a3cd5ea5a6e
+vendor/lib64/libgps.utils.so|39fc461d9229dcf7746c81bb31f370652961cee1
+vendor/lib/libdiagjni.so|e4464ce33784ae9caadd4d2044d808b9d5166849
+vendor/lib/libgps.utils.so|77197c0f1714a87531c0fd0bc450c97c39d66b93
 
 # Hotword enrollment
 -priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
 -priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
+# Keymaster - from dipper - QKQ1.190828.002
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|dd926cd019270442af7f955f19da33142c566bf5
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|be07ddbaf08c60f1b55eed40c09967efe31fc44b
+vendor/lib64/libkeymasterdeviceutils.so|34b0c7b66f54038e8762c5136739706d978c51ca
+vendor/lib64/libkeymasterprovision.so|ff41461d15a995117a3a720b759b0fc6032a3992
+vendor/lib64/libkeymasterutils.so|b464b8c1ce5d43c4d32403d21242b9302960c5d6
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|caebfdf87af3defd45d59d776b21181fa82875e8
+vendor/lib/libkeymasterdeviceutils.so|eba90537dc0b8c412fb7e5ac9942de8991827221
+vendor/lib/libkeymasterprovision.so|77832b5e28aa41e915a8ea01b91cb03aff3281bb
+vendor/lib/libkeymasterutils.so|71fcb2c7002e6954a0fd7d215b82f36db71ac48c
 
-# NFC firmware
-vendor/firmware/libpn553_rec.so
-vendor/lib/libpn553_fw.so
+# NFC firmware - from dipper - QKQ1.190828.002
+vendor/firmware/libpn553_rec.so|76674f9d0167258a71c38cd2f9bc35c5e7e103f0
+vendor/lib/libpn553_fw.so|d032117e6645395327a5acd236bfd1bec56569c0
 
-# QDCM calibration data
-vendor/etc/qdcm_calib_data_ss_notch_fhd_cmd_dsi_panel.xml
+# QDCM calibration data - from blueline
+vendor/etc/qdcm_calib_data_ss_notch_fhd_cmd_dsi_panel.xml|b463a7a689539521c57091328e422b6da48d73bb
 
-# Secure element
-vendor/bin/hw/vendor.qti.secure_element@1.0-service
-vendor/etc/init/vendor.qti.secure_element@1.0-service.rc
-vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so
-vendor/lib/hw/android.hardware.secure_element@1.0-impl.so
+# Secure element - from dipper - QKQ1.190828.002
+vendor/bin/hw/vendor.qti.secure_element@1.0-service|5d9748d92b2979662f47c7b5c16b0adaeff508cd
+vendor/etc/init/vendor.qti.secure_element@1.0-service.rc|14796c45011ad0d4735e0f3c9dbc646e6af205aa
+vendor/lib64/hw/android.hardware.secure_element@1.0-impl.so|479a312595b47558a505bc63899497aab743ef12
+vendor/lib/hw/android.hardware.secure_element@1.0-impl.so|c0bad4bf1cabdb754d709ce8e6171c556e173cf1
 
 # Sensors - from dipper - QKQ1.190828.002
 vendor/lib64/sensors.ssc.so|42f0b743c9d3a1ad817ed24dfd3f3804024de3a5
 vendor/lib/sensors.ssc.so|0e215925af53a262441aedd8a9749800f1da47b6
+vendor/lib64/libsns_fastRPC_util.so|201936343044a279b5068f9ff3a1b1a8a96a4cc8
+vendor/lib/libsns_fastRPC_util.so|1ac51d721f154ce2a37f698f6f247fc25ab23bbd
 
 # Sensors configs - from dipper - QKQ1.190828.002
 vendor/etc/sensors/config/ak991x_dri_0.json|87667dc314509d4a2e99d81ffabc9fc8663bbd60
@@ -292,6 +284,7 @@ vendor/etc/sensors/config/sdm845_adux1050_0.json|a837d92646e5b58f1458fe7eb1a3588
 vendor/etc/sensors/config/sns_rotv.json|6c4bd13900d73b97b7bdf39c50da0ea774ac9db4
 vendor/etc/sensors/config/sns_gyro_cal.json|48c8c73ccd775786659b100d70734e57ac1f2abb
 vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
+vendor/etc/sensors/sns_reg_config|891e6e552b64c29b61744dd53ea373ea0ce0aa40
 
 # Snapdragon Computer Vision Engine
 vendor/lib64/libscveFaceLandmarks.so
@@ -313,7 +306,3 @@ vendor/etc/thermal-engine-sdm845-sgame.conf
 vendor/etc/thermal-engine-sdm845-tgame.conf
 vendor/etc/thermal-engine-sdm845.conf
 vendor/etc/thermal-engine.conf
-
-# WiFi
-vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
-vendor/lib/vendor.qti.hardware.wifi.keystore@1.0.so
