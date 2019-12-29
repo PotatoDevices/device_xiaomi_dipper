@@ -1,0 +1,24 @@
+
+[
+  {
+    "repository" : "device_xiaomi_dipper-kernel",
+    "target_path": "device/xiaomi/dipper-kernel",
+    "branch"     : "croquette-release-aosp"
+  },
+  {
+    "repository" : "device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch"     : "croquette-release-aosp"
+  },
+  {
+    "repository" : "RaphielGang/spins_kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/dipper",
+    "branch"     : "rebase-sdx-10",
+    "remote"     : "github"
+  },
+  {
+    "repository" : "vendor_xiaomi",
+    "target_path": "vendor/xiaomi"
+    "branch"     : "croquette-release-aosp"
+  }
+]

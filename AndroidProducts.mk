@@ -14,7 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_dipper.mk
+    $(LOCAL_DIR)/aosp_dipper.mk \
+    $(LOCAL_DIR)/potato_dipper.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_dipper-userdebug
+    aosp_dipper-userdebug \
+    potato_dipper-user
