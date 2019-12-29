@@ -14,11 +14,10 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES += \
-    vendor/google/product/dipper/aosp_dipper.mk \
-    vendor/google/product/dipper/dipper.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aosp_dipper.mk \
+    $(LOCAL_DIR)/potato_dipper.mk
 
-COMMON_LUNCH_CHOICES += \
+COMMON_LUNCH_CHOICES := \
     aosp_dipper-userdebug \
-    dipper-userdebug \
-    dipper-user
+    potato_dipper-user

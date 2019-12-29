@@ -7,7 +7,7 @@
 # Inherit from sdm845-common
 -include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
-DEVICE_PATH := vendor/google/product/dipper
+DEVICE_PATH := device/xiaomi/dipper
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := dipper
