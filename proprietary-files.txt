@@ -28,26 +28,25 @@ vendor/etc/tas2557_aac.ftcfg
 vendor/etc/tas2557_goer.ftcfg
 vendor/lib/soundfx/libmisoundfx.so
 
-# Bluetooth
-vendor/lib64/libbtnv.so
-vendor/lib/libbtnv.so
-vendor/lib64/libbt-hidlclient.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
-vendor/lib/vendor.qti.hardware.fm@1.0.so
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
+# Bluetooth - from blueline - QQ1A.200105.002
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|b49707e8bac97a8c01f943c8e3bbaae106beaf87
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|d5fcb9c2cf5538b9c946b9263b144e714433a578
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|349d3886705bb914e8c2f276487744438c3ca72a
+vendor/lib64/hw/android.hardware.bluetooth.a2dp@1.0-impl-qti.so|d28ce9f3c98e4a75d5ed271225099f8542ed6f3a
+vendor/lib64/btaudio_offload_if.so|3bd7d3f688d9a9e39ea90f339707a76ad740d14f
+vendor/lib64/liba2dpoffload.so|bf2640a25221e977dbbe563469e2281bf57424b2
+vendor/lib64/libbluetooth_audio_session.so|a35256cfe1cf0cc243be00cde44bd37c4583d3a6
+-vendor/lib64/libbtnv.so|7e2e24a9bc2ab09a84d6ac3e543af37f78df24ce
+vendor/lib64/libbthost_if.so|efc9763f25d635dcc82ddaa30b5261bbdd498a7e
+vendor/lib64/libbt-hidlclient.so|b366c96d844d4ee8f95f9253cb3ad5f89c011fbc
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|14b9f109f62e2655f229a516c2510179459bbf68
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|e8c72840ea700a686dcd87c79875bffdc020e87d
+vendor/lib/hw/android.hardware.bluetooth.a2dp@1.0-impl-qti.so|6b2c451916e4f40b5ce4ecf561b453fa01e2263e
+vendor/lib/libbluetooth_audio_session.so|6c6e7bd8a7f01ead49d2c43d03393f5d75f2265c
+vendor/lib/btaudio_offload_if.so|7a3939acc856a8e2c1059c388610087c8cb4ea17
+vendor/lib/liba2dpoffload.so|73845e4e0bf779dc98a58b9a8675c2432827f4b7
+-vendor/lib/libbtnv.so|4e49be2492c2a0582d11e52769e5fdb386fc50c9
+vendor/lib/libbthost_if.so|2cba411426f9c4f257beeb14a54ce734385c3ff5
 
 # Camera - from dipper - QKQ1.190828.002
 vendor/bin/remosaic_daemon|eccc7cae3e6ec5dc02506f3de821e53b6ddeff89
@@ -232,8 +231,8 @@ vendor/lib/libdiagjni.so|e4464ce33784ae9caadd4d2044d808b9d5166849
 vendor/lib/libgps.utils.so|77197c0f1714a87531c0fd0bc450c97c39d66b93
 
 # Hotword enrollment
--priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
--priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
 
 # Keymaster - from dipper - QKQ1.190828.002
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|dd926cd019270442af7f955f19da33142c566bf5
